@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <form action="">
-        <label for="name">
-            Full Name*:
-            <input type="text" name="name">
-        </label>
-        <label for="email">
-            Email*:
-            <input type="text" name="email">
-        </label>
-        <label for="select">
-            <select name="select" id="option">
-                <option value="goa" name="select">Goa</option>
-                <option value="gao" name="select">Gao</option>
-            </select>
-        </label>
-        <label for="arrival">
-            Arrival Date*:
-            <input type="date" name="arrival">
-        </label>
-        <label  class="person" for="number">
-            Number of Persons*:
-            <input type="number" name="number">
-        </label>
-        <label for="radio-1">
-            What would you want to avail
-            <div><p>Boarding</p> <input type="radio" name="select-1"></div>
-            <div><p>Fooding</p> <input type="radio" name="select-1"></div>
-            <div><p>Sight seeing</p> <input type="radio" name="select-1"></div>
-        </label>
-        <label for="discount">
-            Discount Coupon code:
-            <input type="text" name="discount">
-        </label>
-        <label for="">
-            <input type="radio" name="agree" value="agree">
-            <p>I agree</p>
-            <input type="radio" name="agree" value="disagree">
-            <p>I disagree</p>
-        </label>
-        <button type="submit">Complete Reservation</button>
+      <label for="name">
+        Full Name*:
+        <input type="text" name="name" required />
+      </label>
+      <label for="email">
+        Email*:
+        <input type="text" name="email" required />
+      </label>
+      <label for="select">
+        <select name="select" id="option">
+          <option value="goa" name="select">Goa</option>
+          <option value="gao" name="select">Gao</option>
+        </select>
+      </label>
+      <label for="arrival">
+        Arrival Date*:
+        <input type="date" name="arrival" required />
+      </label>
+      <label class="person" for="number">
+        Number of Persons*:
+        <input type="number" name="number" required />
+      </label>
+      <label for="radio-1">
+        What would you want to avail
+        <div>
+          <p>Boarding</p>
+          <input type="radio" name="select-1" />
+        </div>
+        <div>
+          <p>Fooding</p>
+          <input type="radio" name="select-1" />
+        </div>
+        <div>
+          <p>Sight seeing</p>
+          <input type="radio" name="select-1" />
+        </div>
+      </label>
+      <label for="discount">
+        Discount Coupon code:
+        <input type="text" name="discount" required />
+      </label>
+      <label for="">
+        <input type="radio" name="agree" value="agree" />
+        <p>I agree</p>
+        <input type="radio" name="agree" value="disagree" />
+        <p>I disagree</p>
+      </label>
+      <button type="submit">Complete Reservation</button>
     </form>
-</body>
+  </body>
 </html>

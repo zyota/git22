@@ -1,29 +1,26 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 600px;
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 600px;
 }
 
-button{
-    width: 150px;
-    cursor: pointer;
+button {
+  width: 150px;
+  cursor: pointer;
 }
-input:required{
-    border-color: #800000;
-    border-width: 3px;
-}
-.person input{
-    max-width: 2;
-    min-width: 1;
+
+.person input {
+  max-width: 2;
+  min-width: 1;
 }
